@@ -1,21 +1,22 @@
+<template>
+  <Header />
+</template>
+
 <script>
-import header from './components/header.vue'
+  import Header from './components/Header.vue'
+  import store from './store'
 
 export default{
   components: {
-      header,
+      Header,
     },
     data() {
       return {
-        
+        store
       }
     },
 }
 </script>
-
-<template>
-  <Header/>
-</template>
 
 <style lang="scss" scoped>
 
