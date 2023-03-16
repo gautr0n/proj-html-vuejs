@@ -8,7 +8,7 @@
             </select>
             <div>
                 <ul>
-                    <NavCard v-for="(el, index) in this.store.navBar" :key="index" :i="index"/>
+                    <NavCard v-for="(el, index) in this.store.navBar" :key="index" :el="index"/>
                 </ul>
                 <div>
                     <font-awesome-icon icon="fa-brands fa-twitter" />

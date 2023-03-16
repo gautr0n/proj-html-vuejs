@@ -1,6 +1,6 @@
 <template>
     <li class="card">
-        <a href="" >{{ this.store.navBar[i] }}</a>
+        <a href="" >{{ this.store.navBar[el] }}</a>
     </li>
   </template>
     
@@ -8,8 +8,8 @@
   import store from '../store'
     export default {
         props: {
-            i: {
-                type: Object,
+            el: {
+                type: Number,
                 required: true
             }
         },
